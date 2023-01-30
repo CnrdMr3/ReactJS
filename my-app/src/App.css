@@ -2,14 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-logo1 {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-logo2 {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.App-logo3 {
+  height: 20vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo1 {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo3 {
+    animation: App-logo-spin infinite 7.5s linear;
   }
 }
 
@@ -30,9 +52,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotateX(0deg) rotateY(180deg) rotateZ(360deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotateX(360deg) rotateY(180deg) rotateZ(0deg);
   }
 }

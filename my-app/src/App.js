@@ -5,17 +5,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo1" alt="logo" />
+        <img src={logo} className="App-logo2" alt="logo" />
+        <img src={logo} className="App-logo3" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          'ReactJS-ivi-ty'
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/CnrdMr3/ReactJS"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          CnrdMr3 - GitHub.com
         </a>
       </header>
     </div>
