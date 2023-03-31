@@ -1,2 +1,2 @@
 # ReactJS
-ReactJS and Redux ES6 &amp; ES7
+ReactJS and Redux ES6/ES7 ( JSX / CSS3 / HTML5 ).
